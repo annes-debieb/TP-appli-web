@@ -1,0 +1,42 @@
+body {
+  background-color: aquamarine;
+}
+.ff {
+  background-color: honeydew;
+}
+table {
+  background-color: white;
+  border-radius: 15px;
+  padding: 5px;
+  border-style: groove;
+  vertical-align: middle;
+}
+a:hover {
+  color: orange;
+}
+tr:nth-child(even) {
+  background-color: rgba(128, 128, 128, 0.479);
+}
+
+tr:hover {
+  background-color: greenyellow;
+}
+
+
+img:hover{
+  transform: scale(3);
+}
+
+h1>a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media only screen and (max-width : 600px) {
+  body {
+      background-color: blue;
+  }
+  table {
+      overflow: auto;
+  }
+}
