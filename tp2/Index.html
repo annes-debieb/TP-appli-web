@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="cssform.css">
+<script type="text/javascript" src="validation.js"></script>
+<title>formulaire DEBIEB Annes</title>
+
+</head>
+<body>
+    <h1>Saisie d'une fiche "Personne" </h1> 
+    
+    <form id="formAW" onsubmit="validation()">
+        <label for="nom">Nom</label>
+        <input type="text" id="nom" name="nom" placeholder="* Bouaoua">
+        </br>
+        <label for="prenom">Prénom</label>
+        <input type="text" id="prenom" name="prenom" placeholder="* Paul" maxlength=30 >
+        <br/>
+        
+        <label for="date">Date de naissance</label>
+        <input type="date" id="date" name="date" min="1900-01-01" max="2018-01-01"> 
+        <br/>
+
+        <label for="adress">Adresse</label>
+        <input type="text" id="adress" name="adress" placeholder="* 8 rue les castors, Paris" maxlength=50>
+        <br/>
+        
+        
+        <label for="mail">Adresse mail</label>
+        <input type="text" id="mail" name="mail" placeholder="* abcd@mail.com">
+          
+          <p>
+          <input type="button" value="Valider" onclick="validation()">
+          </p>
+          
+          </form>
+        
+        <div id="error"></div>
+        <div id="resultat"></div>
+</body>
+</html>

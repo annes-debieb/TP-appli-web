@@ -1,0 +1,52 @@
+label{
+    width: 180px;
+    display: inline-block;
+}
+#prenom {
+    text-transform: capitalize;
+}
+#nom {
+    text-transform: uppercase;
+}
+
+
+body{
+    background-color: #dfe6e3;              
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 0 auto;
+    max-width: 800px;              
+  }
+
+#error, #resultat{
+  display : none;
+}
+
+.bellara{
+    display : block !important;
+  }
+
+  #error{
+
+    color: white;
+    border: 1px outset red;
+    background-color: rgb(228, 171, 171);
+    padding : 5px
+   
+ }
+
+ #resultat{
+
+    color:white;
+    border: 1px outset rgb(1, 97, 1);
+    background-color: rgb(15, 197, 94);
+    padding : 5px
+
+ }
+
+ input[type=button] 
+ { 
+     color: white; 
+     background-color:green;   
+     font-size: larger;
+ }
