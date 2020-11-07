@@ -6,7 +6,7 @@ function validation(){
   var adress = document.getElementById("adress").value;
   var mail = document.getElementById("mail").value;
 
-  if (  (nom && prenom && date && adress && mail !="" ) && (nom.length>3) && (nom.length<=20) && (prenom.length>3) && (prenom.length<=30)  && (adress.length>4) && (adress.length<=50) && (mail.length>9) && (mail.length<=40) ) {
+  if (  (nom && prenom && date && adress && mail !="" ) && (nom.length>2) && (nom.length<=20) && (prenom.length>2) && (prenom.length<=30)  && (adress.length>2) && (adress.length<=50) ) {
       
         document.getElementById('error').classList.remove('bellara');
         document.getElementById('resultat').classList.add('bellara');
